@@ -1,0 +1,2 @@
+include ':shamindalab3'
+rootProject.name = "ShamindaLab3"
