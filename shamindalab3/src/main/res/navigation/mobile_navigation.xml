@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--Shaminda_Abeysekara_301056885 -->
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,19 +8,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="shaminda.abeysekara.s301056885.ui.home.HomeFragment"
+        android:name="shaminda.abeysekara.s301056885.ui.home.ShamindaFragment"
         android:label="@string/title_home"
         tools:layout="@layout/shaminda_fragment" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="shaminda.abeysekara.s301056885.ui.dashboard.DashboardFragment"
+        android:name="shaminda.abeysekara.s301056885.ui.dashboard.AbeysekaraFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/abeysekara_fragment" />
+        tools:layout="@layout/abeysekara_fragment"/>
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="shaminda.abeysekara.s301056885.ui.notifications.NotificationsFragment"
+        android:name="shaminda.abeysekara.s301056885.ui.notifications.S301056885Fragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/s301056885_fragment" />
 </navigation>

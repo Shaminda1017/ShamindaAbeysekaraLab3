@@ -4,4 +4,13 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="shamindaHomeImg">shamindaHomeImg</string>
+    <string name="ShamindaHome">Shaminda Abeysekara\n301056885</string>
+    <string name="homeImg">shamindaHome</string>
+    <string name="permission">Need Your Permission</string>
+    <string name="Animate">Animate</string>
+    <string name="Stop">Stop</string>
+    <string name="animationImg">animationImg</string>
+    <string name="shaminda">Shaminda</string>
+
 </resources>
