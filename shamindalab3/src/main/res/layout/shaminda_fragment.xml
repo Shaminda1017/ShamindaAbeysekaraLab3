@@ -13,7 +13,9 @@
         android:layout_width="match_parent"
         android:layout_height="46dp"
         android:gravity="center"
-        android:text="@string/ShamindaHome" />
+        android:text="@string/ShamindaHome"
+        android:textColor="@color/light_Red"
+        android:textStyle="bold"/>
 
     <ImageView
         android:id="@+id/shamindaHomeImg"
@@ -21,5 +23,16 @@
         android:layout_height="354dp"
         android:contentDescription="@string/homeImg"
         app:srcCompat="@drawable/home_pic" />
+
+    <Button
+        android:id="@+id/shamindaClearCanves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|center"
+        android:layout_marginEnd="118dp"
+        android:onClick="clearCanvas"
+        android:text="@string/clear_canvas" />
 
 </RelativeLayout>
