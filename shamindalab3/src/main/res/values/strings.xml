@@ -1,16 +1,17 @@
 <!--Shaminda_Abeysekara_301056885_Sec002-->
 <resources>
-    <string name="app_name">ShamindaLab3</string>
+    <string name="app_name">Shaminda Lab 3</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="shamindaHomeImg">shamindaHomeImg</string>
     <string name="ShamindaHome">Shaminda Abeysekara\n301056885</string>
     <string name="homeImg">shamindaHome</string>
-    <string name="permission">Need Your Permission</string>
+    <string name="permission">Access To Camera</string>
     <string name="Animate">Animate</string>
     <string name="Stop">Stop</string>
-    <string name="animationImg">animationImg</string>
-    <string name="shaminda">Shaminda</string>
+    <string name="animationImg" translatable="false">animationImg</string>
+    <string name="shaminda" translatable="false">Shaminda</string>
+    <string name="clear_canvas">Clear Canvas</string>
 
 </resources>

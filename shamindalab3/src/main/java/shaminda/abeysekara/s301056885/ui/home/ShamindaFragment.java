@@ -15,10 +15,13 @@ import androidx.lifecycle.ViewModelProvider;
 import shaminda.abeysekara.s301056885.R;
 
 public class ShamindaFragment extends Fragment {
+    private HomeViewModel homeViewModel;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
-        return  inflater.inflate(R.layout.shaminda_fragment, container, false);
+       View v =  inflater.inflate(R.layout.shaminda_fragment, container, false);
+
+       return  v;
 
     }
 }

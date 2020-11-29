@@ -15,10 +15,14 @@ import androidx.lifecycle.ViewModelProvider;
 import shaminda.abeysekara.s301056885.R;
 
 public class S301056885Fragment extends Fragment {
+    private NotificationsViewModel viewModel;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
-        return  inflater.inflate(R.layout.s301056885_fragment, container, false);
+        View v =  inflater.inflate(R.layout.s301056885_fragment, container, false);
+
+        return v;
     }
+
 }

@@ -7,14 +7,12 @@ import androidx.lifecycle.ViewModel;
 public class HomeViewModel extends ViewModel {
 
 
-    private MutableLiveData<String> mText;
+    private MutableLiveData<CharSequence> text = new MutableLiveData<>();
 
-    public HomeViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("Shaminda Abeysekara \n 301056885");
+    public void setText(CharSequence input) {
+        text.setValue(input);
     }
-
-    public LiveData<String> getText() {
-        return mText;
+    public  LiveData<CharSequence>getText(){
+        return text;
     }
 }

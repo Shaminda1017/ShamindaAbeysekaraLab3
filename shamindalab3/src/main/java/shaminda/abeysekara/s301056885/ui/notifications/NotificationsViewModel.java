@@ -6,14 +6,13 @@ import androidx.lifecycle.ViewModel;
 
 public class NotificationsViewModel extends ViewModel {
 
-    private MutableLiveData<String> mText;
+    private MutableLiveData<CharSequence> text = new MutableLiveData<>();
 
-    public NotificationsViewModel() {
-        mText = new MutableLiveData<>();
-       mText.setValue("This is notifications fragment");
+    public void setText(CharSequence input) {
+        text.setValue(input);
+    }
+    public  LiveData<CharSequence>getText(){
+        return text;
     }
 
-    public LiveData<String> getText() {
-        return mText;
-    }
 }

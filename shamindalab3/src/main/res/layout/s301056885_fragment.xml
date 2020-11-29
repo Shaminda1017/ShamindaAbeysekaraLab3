@@ -9,8 +9,15 @@
 
     <TextView
         android:id="@+id/shamindaNavText"
-        android:layout_width="match_parent"
-        android:layout_height="46dp"
-        android:text="shaminda"/>
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="614dp"
+        android:text="@string/shaminda"
+        android:textSize="24sp" />
 
 </RelativeLayout>
